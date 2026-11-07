@@ -1,0 +1,48 @@
+{
+  "storeName": "Minha Loja",
+  "apps": [
+    {
+      "id": "minha-loja",
+      "type": "apk",
+      "name": "Minha Loja",
+      "developer": "Você",
+      "category": "Ferramentas",
+      "short": "A loja com todos os meus apps e sites",
+      "description": "Este é o próprio app da loja. Quando você lançar uma versão nova da loja, aumente o versionCode aqui e coloque o link do APK novo em apkUrl: todo mundo verá o botão Atualizar.",
+      "packageName": "com.minhaloja.store",
+      "versionName": "1.0",
+      "versionCode": 1,
+      "apkUrl": "https://github.com/Lingua-Byte/minha-loja/releases/latest/download/MinhaLoja.apk",
+      "size": "41 KB",
+      "updated": "07/11/2026",
+      "featured": true
+    },
+    {
+      "id": "meu-primeiro-app",
+      "type": "apk",
+      "name": "Meu Primeiro App",
+      "developer": "Você",
+      "category": "Jogos",
+      "short": "Exemplo de app que ainda não tem APK",
+      "description": "Troque este exemplo pelo seu app de verdade.\n\n1. Envie o arquivo .apk para a internet (por exemplo, GitHub Releases).\n2. Cole o link em apkUrl.\n3. Coloque o packageName e o versionCode do seu app.",
+      "changelog": "• Primeira versão",
+      "packageName": "com.exemplo.meuapp",
+      "versionName": "1.0",
+      "versionCode": 1,
+      "apkUrl": "",
+      "size": "5 MB",
+      "updated": "07/11/2026"
+    },
+    {
+      "id": "wikipedia",
+      "type": "site",
+      "name": "Wikipédia",
+      "developer": "Exemplo de site",
+      "category": "Sites",
+      "short": "Exemplo: um site aberto dentro da loja",
+      "description": "Sites abrem em tela cheia dentro da loja, e você pode criar um ícone dele na tela inicial do celular com o botão \"Tela inicial\".\n\nTroque pelo endereço dos seus sites.",
+      "url": "https://pt.m.wikipedia.org",
+      "featured": true
+    }
+  ]
+}
